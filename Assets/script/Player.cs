@@ -8,10 +8,7 @@ public class Player : MonoBehaviour
 
     private Animator anim=null;
     private Rigidbody2D rb=null;
-    //変更
-    public float flap = 1000f;
-    bool jump = false;
-    //ここまで
+    private bool jump;
     void Start()
     {
         anim=GetComponent<Animator>();
@@ -38,7 +35,6 @@ public class Player : MonoBehaviour
             xSpeed=0.0f;
         }
         rb.velocity=new Vector2(xSpeed,rb.velocity.y);
-        //この先変更
         if (Input.GetKeyDown("space") && !jump)
         {
             rb.AddForce(Vector2.up*flap);
@@ -52,6 +48,7 @@ public class Player : MonoBehaviour
             jump = false;
         }
     }
+    
 }
 
 
