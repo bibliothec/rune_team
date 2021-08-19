@@ -366,7 +366,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7ae4147c311d7acefbf7cbccc718d1a2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0826db479101052a98f18326d39ac752, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -434,7 +434,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.9716981, g: 0.9716981, b: 0.9716981, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -453,9 +453,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Title
-
-'
+  m_Text: "Garu\u1E0Da"
 --- !u!222 &631949306
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -781,7 +779,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -18.912994}
+  m_AnchoredPosition: {x: 0, y: -45.9}
   m_SizeDelta: {x: 179.86615, y: 37.82599}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2082904627
