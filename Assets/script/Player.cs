@@ -44,6 +44,13 @@ public class Player : MonoBehaviour
         {
             rb.AddForce(Vector2.up*flap);
             jump = true;
+            anim.SetBool("jump",true);
+        }
+        if(Input.GetKeyDown(KeyCode.X))
+        {
+            anim.SetBool("attack",true);
+        }else {
+            anim.SetBool("attack",false);
         }
     }
     void OnCollisionEnter2D(Collision2D other)
@@ -51,6 +58,7 @@ public class Player : MonoBehaviour
         if (other.gameObject.CompareTag("Ground"))
         {
             jump = false;
+            anim.SetBool("jump",false);
         }
     }
 }
